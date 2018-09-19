@@ -1,0 +1,53 @@
+Qual é a pergunta que a página WEB proposta vai resolver?
+
+Dúvidas e dificuldades do calourado acerca do UFAL.
+
+ 
+
+Quais são as tarefas, fora a consulta e busca tradicional, que o teu usuário poderá realizar no site proposto?
+
+ - Informações acerca de processos avaliativos
+
+ - Cálculos sobre os dados avaliativos.
+
+ - Informações de processos burocráticos na UFAL (Bolsas, Pesquisas, Projetos)
+
+ - Informação de mobilidade.
+
+ - Estrutura da UFAL.
+
+ 
+
+Qual será a metodologia realizada para a elaboração  do projeto?
+
+ - Será feita através de HTML, CSS e JS, somente com editores de texto simples.
+
+ 
+
+Descreva, no mínimo, seis tarefas que  o usuário vai poder fazer na página proposta (excluir busca e consulta)? Por exemplo, botão de login (entrada: e-mail e senha; saída: mensagem autorizando ou não):
+
+ - Cálculos sobre os dados avaliativos ---> Provavelmente feito com botões e funções js.
+
+ - Feedback sobre os possíveis caminhos a escolher durante o curso --> Colher dados e redirecionar as páginas informativas.
+
+ - Page user --> Email, nome, Fotos ...
+
+ - Mural de informação, sobre aulas, divulgação de projetos, processos burocráticos e etc…
+
+ - Mecanismos de interação entre blocos, para pesquisas ...
+
+ - Ouvidoria, para dar suporte ao site.
+
+ - Sistema de apadrinhamento, junto com os DE’s.
+
+ 
+
+Você tem conhecimento de algum projeto similar ao seu?
+
+Não!
+
+ 
+
+Envolve a utilização de servidores?
+
+Sim, já que o intuito é ser disponibilizado ao público, ao discente da UFAL.
