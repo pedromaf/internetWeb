@@ -8,19 +8,9 @@ a
 
 /* Menu de fotos */
 
-nav#fotos_menu
-{
-	display: block;
-}
-
 nav#fotos_menu h1
 {
 	display: none;
-}
-
-div#fotos_div
-{
-	display: block;
 }
 
 nav#fotos_menu div#fotos_div img.imgs
@@ -32,18 +22,21 @@ nav#fotos_menu div#fotos_div img.imgs
 
 nav#fotos_menu div#fotos_div img.buttons
 {
-	width: 3%;
+	width: 4.5%;
 	position: absolute;
-}
-
-nav#fotos_menu div#fotos_div img.buttons#button_left
-{
-	top: 30%;
 }
 
 nav#fotos_menu img#buton_left
 {
 	-webkit-transform: rotate(180deg);
+    top: 27%;
+    left: 5%;
+}
+
+nav#fotos_menu img#buton_right
+{
+    top: 27%;
+    right: 5%;
 }
 
 /* Menu principal */
