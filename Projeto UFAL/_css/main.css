@@ -44,7 +44,14 @@ nav#menu
 	width: 100%;
 }
 
-nav#menu ul
+nav#menu ul.lists_link
+{
+	display: none;
+	list-style: none;
+	background: blue;
+} 
+
+nav#menu ul#main_menu
 {
 	list-style: none;
 	margin-left: auto;
@@ -53,12 +60,12 @@ nav#menu ul
 	margin-top: -0.3%;
 }
 
-nav#menu ul a
+nav#menu ul#main_menu a
 {
 	color: black;
 }
 
-nav#menu ul li.menu
+nav#menu ul#main_menu li.menu
 {
 	display: inline-block;
 	padding: 1% 4% 1% 4%;
@@ -66,13 +73,13 @@ nav#menu ul li.menu
 
 }
 
-nav#menu ul li#meio_1
+nav#menu ul#main_menu li#calc
 {
 	padding-right: 10%;
 	border-color: none;
 }
 
-nav#menu ul li#meio_2
+nav#menu ul#main_menu li#inter
 {
 	padding-left: 10%;
 	border-color: none;
@@ -84,6 +91,31 @@ nav#menu img#logo_menu
 	width: 10%;
 	top: -460%;
 	left: 41.5%;
+}
+
+nav#menu ul#main_menu li#info:hover
+{
+	display: block;
+}
+
+nav#menu ul#main_menu li#calc:hover
+{
+
+}
+
+nav#menu ul#main_menu li#inter:hover
+{
+
+}
+
+nav#menu ul#main_menu li#funcio:hover
+{
+
+}
+
+nav#menu ul#main_menu li#speak:hover
+{
+
 }
 
 /*Artigos && Page*/
