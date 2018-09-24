@@ -1,92 +1,114 @@
-@charset "UTF-8"
+@charset "utf-8";
 
-a
+div#interface h1 
 {
-	color: #000000;
-	text-decoration: none;
+	display: none;
 }
 
 /* Menu de fotos */
 
-nav#fotos_menu h1
-{
-	display: none;
-}
-
-nav#fotos_menu div#fotos_div img.imgs
+div#fotos_div 
 {
 	position: relative;
-	height: 400px;
-	width: 1340px;
 }
 
-nav#fotos_menu div#fotos_div img.buttons
+div#fotos_div img.imgs
 {
-	width: 4.5%;
+	height: 45.5em;
+	width: 100%;
+}
+
+div#fotos_div input#button_left, input#button_right
+{
+	width: 7%;
+	top: 45%;
 	position: absolute;
 }
 
-nav#fotos_menu img#buton_left
+div#fotos_div input#button_left
 {
 	-webkit-transform: rotate(180deg);
-    top: 27%;
-    left: 5%;
-}
+	left: 4%;
+} 	
 
-nav#fotos_menu img#buton_right
+div#fotos_div input#button_right
 {
-    top: 27%;
-    right: 5%;
+	right: 4%;
 }
 
-/* Menu principal */
+/* Menu navegável -- Dispositvos médios e grandes*/
 
 nav#menu
 {
-	display: block;
-	top: -2%;
-	width: 100%;
-	height: 100%;
 	position: sticky;
-}
-
-nav#menu h1
-{
-	display: none;
+	width: 100%;
 }
 
 nav#menu ul
 {
 	list-style: none;
-	text-transform: uppercase;
-	position: absolute;
-	left: -3%;
-	width: 100%;
-	right: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+	margin-top: -0.3%;
 }
 
-nav#menu li
+nav#menu ul a
+{
+	color: black;
+}
+
+nav#menu ul li.menu, li.menu*
 {
 	display: inline-block;
-	background-color: #ED233F;
-	padding: 0.7% 3.42% 0.7% 3.42%;
-	margin: -0.4%;
+	padding: 1% 4% 1% 4%;
 }
 
-nav#menu li#meio_1
+nav#menu ul li.menu
 {
-	border-right: 14%;
+	border-right: solid white 2px;
 }
 
-nav#menu li#meio_2
+nav#menu ul li#meio_1
 {
-	padding-left: 14%;
+	padding-right: 10%;
+	border-color: none;
+}
+
+nav#menu ul li#meio_2
+{
+	padding-left: 10%;
+	border-color: none;
 }
 
 nav#menu img#logo_menu
 {
-	width: auto;
-	height: 200px;
-	top: -100%;
+	position: absolute;
+	width: 10%;
+	top: -460%;
+	left: 41.5%;
 }
 
+/*Artigos && Page*/
+
+section#body header#header_page h1
+{
+}
+
+section#body
+{
+	float: left;
+	width: 73%;
+	border-right: 1px solid black;	
+}
+
+section#body article
+{
+	width: 95%;
+}
+
+aside#side
+{
+	float: right;
+	width: 22%;
+}
