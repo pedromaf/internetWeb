@@ -58,15 +58,12 @@ nav#menu ul a
 	color: black;
 }
 
-nav#menu ul li.menu, li.menu*
+nav#menu ul li.menu
 {
 	display: inline-block;
 	padding: 1% 4% 1% 4%;
-}
-
-nav#menu ul li.menu
-{
 	border-right: solid white 2px;
+
 }
 
 nav#menu ul li#meio_1
