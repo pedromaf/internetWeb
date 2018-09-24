@@ -2,6 +2,8 @@
 <html>
 <head>	
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+
 	<link rel="stylesheet" type="text/css" href="_css/main.css">
 	
 	<title>Projeto UFAL</title>
@@ -13,33 +15,40 @@
 			<h1>Fotos</h1>
 
 			<div id="fotos_div">
-				<img class="imgs" src="_photos/foto1_menu.jpg"/>
-				<img class="buttons" id="buton_left" src="_photos/botao_img_menu.png"/>
-				<img class="buttons" id="buton_right" src="_photos/botao_img_menu.png"/>
+				<img class="imgs" src="_photos/foto1_menu.jpg" onclick="dasd ()">
+				<input id="button_left" type="image" src="_photos/botao_img_menu.png" onclick="previously_image ()">
+				<input id="button_right" type="image"  src="_photos/botao_img_menu.png" onclick="netxt_image ()">
 			</div>
 		</nav>
 
 		<nav id="menu">
 			<h1>Menu Principal</h1>
-			
-			<ul>
-				<li class="maior_menu"><a href="index.html">Home</a></li>
-				<li class="maior_menu"><a href="info.html">Informações</a></li>
-				<li id="meio_1"><a href="info.html">Informações</a></li>
-				<li id="meio_2"><a href="inter.html">Interatividade</a></li>
-				<li class="maior_menu"><a href="funcio.html">Funcionabilidade</a></li>
-				<li class="maior_menu"><a href="speak.html">Fale conosco</a></li>
-			</ul>
 
 			<img id="logo_menu" src="_photos/brasao-ufal.jpg">
+			
+			<ul>
+				<li class="menu"><a href="index.html">Home</a></li>
+				<li class="menu"><a href="info.html">Informações</a></li>
+				<li class="menu*" id="meio_1"><a href="info.html">Informações</a></li>
+				<li class="menu*" id="meio_2"><a href="inter.html">Interatividade</a></li>
+				<li class="menu"><a href="funcio.html">Funcionabilidade</a></li>
+				<li class="menu"><a href="speak.html">Fale conosco</a></li>
+			</ul>
 
 		</nav>
-	
+	</div>
+
 	<section id="body">
+		
+		<header id="header_page">
+			<hgroup>
+				<h1>Notícias &#62; Recentes</h1>		
+			</hgroup>
+		</header>
+
 		<article id="main-news">
 			<header id="header-article">
 				<hgroup>
-					<h3>Notícias > Recentes</h3>
 					<h1>Significado de WWW</h1>
 					<h2>Nome do escritor...</h2>
 				</hgroup>
@@ -69,8 +78,6 @@
 			<p>Informações do ad...</p>
 		</div>
 	</aside>
-
-	</div>
 
 </body>
 </html>
